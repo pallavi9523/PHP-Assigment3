@@ -3,89 +3,44 @@
 <head>
     <title>Registration Form</title>
 </head>
-
 <body>
-
 <h2>Registration Form</h2>
-
-<form action="registration.php" method="post">
-
-    <!-- Username -->
+<form action="process.php" method="post">
     Username:
     <input type="text" name="username">
     <br><br>
-
-
-    <!-- Email -->
     Email Address:
     <input type="text" name="email">
     <br><br>
-
-
-    <!-- Gender -->
     Gender:
-
     <input type="radio" name="gender" value="m"> Male
-
     <input type="radio" name="gender" value="f"> Female
-
     <input type="radio" name="gender" value="o"> Other
-
     <br><br>
-
-
-    <!-- Mobile -->
     Mobile No:
     <input type="text" name="mobile">
     <br><br>
-
-
-    <!-- Country -->
     Country:
-
     <select name="country">
-
         <option value="">-- Select Country --</option>
-
         <option value="India">India</option>
-
         <option value="USA">USA</option>
-
         <option value="UK">UK</option>
-
         <option value="Canada">Canada</option>
-
         <option value="Australia">Australia</option>
-
     </select>
-
     <br><br>
 
-
-    <!-- Password -->
     Password:
     <input type="password" name="password">
     <br><br>
-
-
-    <!-- Confirm Password -->
     Confirm Password:
     <input type="password" name="confirm_password">
     <br><br>
-
-
-    <!-- Terms -->
     <input type="checkbox" name="terms" value="Agreed">
-
     I agree to the terms and condition
-
     <br><br>
-
-
-    <!-- Submit -->
     <input type="submit" value="Submit">
-
 </form>
-
 </body>
 </html>
